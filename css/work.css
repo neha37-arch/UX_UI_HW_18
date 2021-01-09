@@ -1,0 +1,134 @@
+.inline-block{
+    display: inline-block;
+    vertical-align: top; 
+}
+nav{
+    width : 73%;
+    padding: 1%;
+    display:inline;
+    float: left ;
+}
+nav ul{
+list-style: none;
+}
+nav li {
+display: inline-block;
+margin: 20px 40px;
+position: relative;
+left: 40%;
+}
+
+nav a { color: #444;
+text-decoration: none;
+font-family: sans-serif;
+text-transform: uppercase;
+font-size: 16px;
+text-align: center;
+
+}
+
+nav a:hover {
+    color: black;
+
+}
+section {
+
+margin-left: 20%;
+    display: inline-block;
+    vertical-align:top ;
+font-family: sans-serif;
+text-align: center;
+font-style: italic;
+color:#444
+
+}
+h1{ font-size: 48px;}
+
+h3{ font-size: 20px;
+margin:0;
+position:relative;
+}
+
+p
+{ font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: 20px;
+    color:#383838
+}
+
+.rectangle-1{
+    width:946px;
+    height:456px;
+    margin-top: 40px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    grid-gap:10px;
+    padding:10px;
+background: #F7CEB9;
+}
+.rectangle-1 img {
+    width: 267px;
+height: 407px;
+    position:relative;
+    margin-left: 40px;
+    margin-top: 56px;
+
+}
+.rectangle-1 p{
+
+    margin-top: 150px;
+}
+.rectangle-1 p strong {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size:30px;
+    color:#383838
+}
+
+.rectangle-2{
+    width:946px;
+    height:456px;
+    margin-top: 20px;
+    margin: o auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    grid-gap:10px;
+    padding:10px;
+background: #D3F0EE
+}
+.rectangle-2 img {
+    width: 267px;
+height: 407px;
+    position:relative;
+    margin-left: 40px;
+    margin-top: 56px;
+
+}
+.rectangle-2 p{
+
+    margin-top: 150px;
+}
+.rectangle-2 p strong {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size:30px;
+    color:#383838
+}
+
+footer ul{ list-style: none;}
+
+footer li{ 
+display: inline-block;
+    vertical-align : top;
+    text-align: centre;
+    margin: 60px 60px;
+    position: relative;
+    left: 30%;
+}
+footer a { color: #444;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;}

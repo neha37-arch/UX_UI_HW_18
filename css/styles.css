@@ -1,0 +1,77 @@
+.heading h1{
+    position: absolute;
+  top: 200px;
+  left: 325px;
+  
+    font-family: sans-serif;
+    font-style: italic;
+}
+body{
+    font-family: courier,sans-serif;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:white;
+
+}
+
+.container{
+   width:1200px;
+   height:500px;
+   margin: o auto;
+   display:grid;
+   grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+   grid-gap:10px;
+   padding:10px;
+   box-sizing:border-box;
+   
+  
+}
+.box {
+    border: 2px solid 383838;
+    padding: 20px;
+    margin:20px;
+    background:#F7CEB9;
+}
+
+.box h3{
+font-family: sans-serif;
+font-style: italic;
+text-align: center;
+color:#524949;
+}
+.container.box{ 
+    position:relative;
+  background:#F7CEB9;
+  padding:20px 40px 40px;
+  text-align:center;
+  overflow:hidden;
+  border-radius:20px;
+ 
+
+}
+.container .box{
+    nth child (1) 
+    background: linear-gradient(usdeg,#036eb7,)
+
+}
+
+.container.box h3{
+    margin:0;
+    padding:0;
+    color:383838;
+    font-size:24px;
+    text-transform:uppercase;
+   
+}
+
+.container .box p{
+    margin:0;
+    padding:0;
+    color:#524949
+    font-size:16px;
+    
+}
