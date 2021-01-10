@@ -1,7 +1,38 @@
-.heading h1{
-    position: absolute;
-  top: 200px;
-  left: 325px;
+.inline-block{
+    display: inline-block;
+    vertical-align: top; 
+}
+nav{
+    width : 73%;
+    padding: 1%;
+    display:inline;
+    float: left ;
+}
+nav ul{
+list-style: none;
+}
+nav li {
+display: inline-block;
+margin: 20px 40px;
+position: relative;
+left: 40%;
+}
+
+nav a { color: #444;
+text-decoration: none;
+font-family: sans-serif;
+text-transform: uppercase;
+font-size: 16px;
+text-align: center;
+
+}
+
+nav a:hover {
+    color: black;
+
+}
+
+
   
     font-family: sans-serif;
     font-style: italic;
@@ -27,6 +58,7 @@ body{
    grid-gap:10px;
    padding:10px;
    box-sizing:border-box;
+   margin-left: 15%;
    
   
 }
@@ -73,5 +105,23 @@ color:#524949;
     padding:0;
     color:#524949
     font-size:16px;
-    
+    font-family: courier,sas-serif;
+
 }
+
+footer ul{ list-style: none;}
+
+footer li{ 
+display: inline-block;
+    vertical-align : top;
+    text-align: centre;
+    margin: 60px 60px;
+    position: relative;
+    left: 30%;
+}
+footer a { color: #444;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;}
